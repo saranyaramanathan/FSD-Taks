@@ -308,7 +308,7 @@ font-size: 1em;
 .deals-card-content{
 
 flex: 1;
-min-width: 200px;
+
 height:auto;
 background-color: #FFFFFF;
 filter: drop-shadow(0px 4px 4px #000000); 
