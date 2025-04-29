@@ -314,7 +314,7 @@ background-color: #FFFFFF;
 filter: drop-shadow(0px 4px 4px #000000); 
    border:none;
    border-radius: 5px;
-   overflow: hidden;
+   /* overflow: hidden; */
    
 
   
@@ -420,7 +420,7 @@ filter: drop-shadow(0px 4px 4px #000000);
    border:none;
    border-radius: 5px;
  
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 .v-card-footer{
     display: flex;
@@ -529,7 +529,7 @@ filter: drop-shadow(0px 4px 4px #000000);
 .blog-card {
     width: 200px;
     border-radius: 12px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     padding: 10px;
