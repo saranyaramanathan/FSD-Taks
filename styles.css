@@ -1,14 +1,17 @@
 body{
     margin:0;
     padding:0;
-
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .nav{
     background-color:#FEFCFB;
     display: flex;
     justify-content: center;
-   
+    width:100%;
+    flex-wrap: nowrap;
+    
 }
 
 .menu-holder{
@@ -17,6 +20,7 @@ body{
     align-items: center;
     padding: 20px;
    width:65%;
+    
  
 }
 
@@ -32,7 +36,7 @@ font-size: 1em;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    
     
 }
 .menu > ul >li{
@@ -42,7 +46,8 @@ font-size: 1em;
     font-style: normal;
     color:#000000;
     font-size: 1em;
-    margin-right: 10px;
+    padding-right: 20px;
+    
 }
 .btn_signup{
     
@@ -57,6 +62,7 @@ font-size: 1em;
     border:none;
     border-radius: 5px;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    margin: 20px;
 }
 .content{
     display:flex;
@@ -74,14 +80,14 @@ font-size: 1em;
     font-weight: 700;
     font-style: normal;
     color:#222222;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 .p-desc{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#666666;
-   font-size: 0.8em;
+   font-size: 1.25em;
 }
 .left > button{
     font-family: "Poppins", sans-serif;
@@ -91,7 +97,7 @@ font-size: 1em;
     border:1px solid #FA7436;
     padding: 8px 25px 8px 25px;
     background-color: #FFFFFF;
-    margin-top: 20px;
+    font-size: 1.1em;
     filter: drop-shadow(0px 4px 4px #000000);
 }
 .left{
@@ -100,8 +106,7 @@ font-size: 1em;
 }
 .right{
     width:50%;
-    padding-right: 40px;
-    padding-bottom: 10px;
+   
 }
 .search-bar{
    display: flex;
@@ -120,7 +125,7 @@ font-size: 1em;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    
+    font-size: 12px;
 }
 .groupA >p{
     color: #666666;
@@ -134,7 +139,7 @@ font-size: 1em;
     width:65%;
     display: flex;
    justify-content: center;
-  
+    margin-top: 10px;
 }
 .search-content-holder{
      display:flex;
@@ -163,6 +168,7 @@ font-size: 1em;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 1.1em;
     background-color: #FA7436;
     padding: 10px 20px 10px 20px;
     filter: drop-shadow(0px 4px 4px #000000);
@@ -198,7 +204,7 @@ font-size: 1em;
     font-weight: 700;
     font-style: normal;
     color:#222222;
-    
+    font-size:3em;
 }
 
 .things-content > p{
@@ -207,7 +213,7 @@ font-size: 1em;
     font-style: normal;
     color:#666666;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     
    
 }
@@ -240,13 +246,14 @@ font-size: 1em;
     font-weight: 600;
     font-style: normal;
     color:#000000;
-    font-size: 18px;
+    font-size: 24px;
 }
 .things-card-content>p{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#666666;
+    font-size: 16px;
 }
         
 
@@ -280,7 +287,7 @@ font-size: 1em;
     font-weight: 700;
     font-style: normal;
     color:#222222;
-    
+    font-size: 3em;
 }
 
 .deals-content-desc{
@@ -289,6 +296,7 @@ font-size: 1em;
     font-style: normal;
     color:#666666;
     text-align: center;
+    font-size: 18px;
 }
 .deals-card-grid{
     display: flex;
@@ -332,13 +340,13 @@ filter: drop-shadow(0px 4px 4px #000000);
   font-weight: 500;
   font-style: normal;
 color:#222222;
-font-size: 14px;
+font-size: 24px;
   }
   .points{
     font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
   }
 .deals-card-footer{
     display: flex;
@@ -484,7 +492,7 @@ filter: drop-shadow(0px 4px 4px #000000);
     font-family: "Volkhov", serif;
     font-weight: 700;
     font-style: normal;
-    
+   font-size: 2.5em; 
    
    
 }
@@ -493,7 +501,7 @@ filter: drop-shadow(0px 4px 4px #000000);
      font-style: normal;
      color:#666666;
      font-weight: 400;
-     font-size: 14px;
+     font-size: 16px;
    
 }
 .blog-section{
@@ -522,7 +530,7 @@ filter: drop-shadow(0px 4px 4px #000000);
     font-family: "Volkhov", serif;
     font-weight: 700;
     font-style: normal;
-    
+    font-size: 3em;
    
    
 }
@@ -544,14 +552,14 @@ filter: drop-shadow(0px 4px 4px #000000);
 font-weight: 500;
 font-style: normal;
 color: #666666;
-font-size: 12px;
+font-size: 16px;
 }
 .card-date{
     margin-top: 10px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #999999;
-    font-size: 12px;
+    font-size: 14px;
 }
   .f-card-body{
     margin-top: 10px;
@@ -571,14 +579,14 @@ font-size: 12px;
   font-weight: 500;
   font-style: normal;
   color: #666666;
-font-size: 12px;
+font-size: 18px;
     }
     .f-card-date{
         margin-top: 10px;
         font-family: "Inter", sans-serif;
         font-style: normal;
         color: #999999;
-        font-size: 12px;
+        font-size: 16px;
     }
     .footer{
     display: flex;
@@ -643,7 +651,7 @@ font-size: 12px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-family: 12px;
+        font-family: 18px;
         color: #222222;
     }
     .f-card>span{
