@@ -310,18 +310,16 @@ font-size: 1em;
 }
 .deals-card-holder{
     display: flex;
-   
-    align-items: center;
+   align-items: center;
     gap: 1.5rem;
     width:100%;
-    max-width: 200px;
     padding-top: 20px;
 }
 .deals-card-content{
 
 flex: 1;
-min-width:200px;
-height:auto;
+max-width:200px;
+
 background-color: #FFFFFF;
 filter: drop-shadow(0px 4px 4px #000000); 
    border:none;
