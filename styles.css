@@ -406,7 +406,7 @@ font-size: 24px;
     align-items: center;
     justify-content: center;
     background-color: #FEFCFB;
-    filter: drop-shadow(0px 4px 4px #ccc);
+    
     margin-top: 20px;
     margin-bottom: 60px;
     
@@ -430,7 +430,7 @@ font-size: 24px;
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    
+    padding-top: 20px;
     
 }
 .v-card-content{
