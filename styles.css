@@ -4,7 +4,7 @@ body{
     width:100vw;
     height:100vh;
     max-width: 100%;
-    
+    overflow-x: hidden; 
 }
 
 .nav{
@@ -82,14 +82,14 @@ font-size: 1em;
     font-weight: 700;
     font-style: normal;
     color:#222222;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .p-desc{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#666666;
-   font-size: 1.25em;
+   font-size: 1em;
 }
 .left > button{
     font-family: "Poppins", sans-serif;
@@ -99,7 +99,7 @@ font-size: 1em;
     border:1px solid #FA7436;
     padding: 8px 25px 8px 25px;
     background-color: #FFFFFF;
-    font-size: 1.1em;
+    font-size: 1em;
     filter: drop-shadow(0px 4px 4px #000000);
 }
 .left{
@@ -113,12 +113,14 @@ font-size: 1em;
 .search-bar{
    display: flex;
    justify-content: center;
-   align-items: center;
+   
    
 }
 .groupA{
-    display:inline-block;
-    padding-right: 40px;
+    display:flex;
+   flex-direction: column;
+    
+    padding: 12px;
 }
 .groupA > select{
     border:none;
@@ -136,33 +138,38 @@ font-size: 1em;
     font-style: normal;
     color:#666666;
     font-size: 12px;
+    overflow-wrap: break-word;
 }
 .border{
     width:65%;
     display: flex;
    justify-content: center;
-    margin-top: 10px;
+    
 }
 .search-content-holder{
      display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
     background-color: #FFFFFF;
     filter: drop-shadow(0px 4px 4px #000000);
     border:none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 4px;
+    
    
 }
 .search-content{
     display:flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 .explore_btn{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
     margin-left: 10px;
+    padding-right: 10px;
 }
 .explore_btn>button{
     
@@ -176,6 +183,7 @@ font-size: 1em;
     filter: drop-shadow(0px 4px 4px #000000);
     border:none;
     border-radius: 5px;
+
 }
 .things-section{
     display: flex;
@@ -183,47 +191,47 @@ font-size: 1em;
     align-items: center;
     justify-content: center;
     background-color: #F7F8FC;
-    margin-top: 100px;
-   padding-bottom: 40px;
+    margin-top: 20px;
+   
 }
 .things-holder{
     display: flex;
-    justify-content:center;
-    align-items: center;
+   justify-content: center;
     width:65%;
-    margin-top: 40px;
+    align-items: center;
    
 }
 .things-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
     
 }
-.things-content > h1{
+.things-content>h1{
     font-family: "Volkhov", serif;
     font-weight: 700;
     font-style: normal;
     color:#222222;
-    font-size:3em;
+    font-size:2em;
+    text-align: center;
 }
 
-.things-content > p{
+.things-content>p{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#666666;
     text-align: center;
-    font-size: 18px;
-    
+    font-size: 16px;
+    min-width: 0;
+    overflow-wrap: break-word;
    
 }
 .things-card-grid{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:65%;
+    width:100%;
     margin: 20px;
     
 }
@@ -231,7 +239,7 @@ font-size: 1em;
     display: flex;
     justify-content:center;
      align-items: center;
-    width:100%;
+    width:65%;
     
 }
 .things-card{
@@ -248,7 +256,7 @@ font-size: 1em;
     font-weight: 600;
     font-style: normal;
     color:#000000;
-    font-size: 24px;
+    font-size: 18px;
 }
 .things-card-content>p{
     font-family: "Poppins", sans-serif;
@@ -290,7 +298,7 @@ font-size: 1em;
     font-weight: 700;
     font-style: normal;
     color:#222222;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .deals-content-desc{
@@ -299,7 +307,7 @@ font-size: 1em;
     font-style: normal;
     color:#666666;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 .deals-card-grid{
     display: flex;
@@ -307,13 +315,14 @@ font-size: 1em;
     align-items: center;
     width:65%;
     
+    
 }
 .deals-card-holder{
     display: flex;
    align-items: center;
     gap: 1.5rem;
     width:100%;
-    padding-top: 20px;
+    
 }
 .deals-card-content{
 
@@ -331,7 +340,7 @@ filter: drop-shadow(0px 4px 4px #000000);
 }
 .deals-card-content>img{
     width:100%;
-    height: 250px;
+    height: 200px;
     object-fit:cover;
     border-radius: 5px;
    
@@ -399,6 +408,7 @@ font-size: 24px;
     background-color: #FEFCFB;
     filter: drop-shadow(0px 4px 4px #ccc);
     margin-top: 20px;
+    margin-bottom: 60px;
     
 }
 .vacation-holder{
@@ -450,7 +460,7 @@ filter: drop-shadow(0px 4px 4px #000000);
     filter: drop-shadow(0px 4px 4px #ccc);
     border:none;
     border-radius: 5px;
-    margin-bottom: 40px;
+   
        
     }
   
@@ -467,18 +477,20 @@ filter: drop-shadow(0px 4px 4px #000000);
         
     }
     .people-holder{
-        margin-top: 20px;
+       
             display: flex;
             justify-content:center;
             align-items: center;
             width:65%;
+            margin-top: 40px;
+            margin-bottom: 40px;
            
  }
  .people-content-holder{
     width:100%;
     display:flex;
     justify-content:space-around;
-    margin-top: 20px;
+   
    
    
 }
@@ -488,16 +500,14 @@ filter: drop-shadow(0px 4px 4px #000000);
 }
 .people-right{
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 40px;
-    width: 60%;
+     width: 60%;
     
 }
 .people-left > h1{
     font-family: "Volkhov", serif;
     font-weight: 700;
     font-style: normal;
-   font-size: 2.5em; 
+   font-size: 2em; 
    
    
 }
@@ -509,13 +519,36 @@ filter: drop-shadow(0px 4px 4px #000000);
      font-size: 16px;
    
 }
+.p1{
+     font-family: "Open Sans", sans-serif;
+     font-style: normal;
+     color: #4E4E73;
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.p2{
+    font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+color:#222222;
+font-size: 18px;
+margin-bottom: 8px;
+}
+.p3{
+ font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+color:#666666;
+font-size: 14px;  
+margin-bottom: 8px; 
+}
 .blog-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color:#FEFCFB;
-    margin-top: 20px;
+    width: 100%;
 }
 .blog-holder{
         
@@ -535,7 +568,7 @@ filter: drop-shadow(0px 4px 4px #000000);
     font-family: "Volkhov", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3em;
+    font-size: 2em;
    
    
 }
