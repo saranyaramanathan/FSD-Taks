@@ -416,7 +416,7 @@ font-size: 24px;
     justify-content:center;
     align-items: center;
     width:65%;
-    margin-bottom: 60px;
+    
     
    
 }
@@ -431,7 +431,7 @@ font-size: 24px;
     align-items: center;
     gap: 1.5rem;
     padding-top: 20px;
-    
+   
 }
 .v-card-content{
 
